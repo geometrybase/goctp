@@ -4,4 +4,4 @@
 git add -A
 git commit -m "update"
 git push origin master
-ssh lgpu "export GOPATH=/mnt/ssd/projects/go && /usr/local/go/bin/go get -u github.com/geometrybase/goctp"
+ssh lgpu "export GOPATH=/mnt/ssd/projects/go && /usr/local/go/bin/go get -v -u github.com/geometrybase/goctp"
