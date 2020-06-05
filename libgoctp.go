@@ -7,7 +7,7 @@
 package goctp
 
 /*
-#cgo linux LDFLAGS: -fPIC -L${SRCDIR}/api/v6.3.16_20190305_tradeapi_linux64 -Wl,-rpath,${SRCDIR}/api/v6.3.16_20190305_tradeapi_linux64 -lthostmduserapi -lthosttraderapi -lstdc++
-#cgo linux CPPFLAGS: -fPIC -I${SRCDIR}/api/v6.3.16_20190305_tradeapi_linux64
+#cgo LDFLAGS: -fPIC -L${SRCDIR}/api/v6.3.16_20190305_tradeapi_linux64 -Wl,-rpath,${SRCDIR}/api/v6.3.16_20190305_tradeapi_linux64 -lthostmduserapi -lthosttraderapi -lstdc++
+#cgo CPPFLAGS: -fPIC -I${SRCDIR}/api/v6.3.16_20190305_tradeapi_linux64
 */
 import "C"
